@@ -1,0 +1,26 @@
+{
+  "name": "tareas-iniciales-eduardobritosan",
+  "version": "1.0.0",
+  "description": "Proyecto de practica 0, pruebas npm y express",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ULL-ESIT-GRADOII-PL/tareas-iniciales-eduardobritosan.git"
+  },
+  "keywords": [
+    "npm",
+    "express",
+    "github",
+    "html",
+    "js"
+  ],
+  "author": "Eduardo Brito Sanchez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ULL-ESIT-GRADOII-PL/tareas-iniciales-eduardobritosan/issues"
+  },
+  "homepage": "https://github.com/ULL-ESIT-GRADOII-PL/tareas-iniciales-eduardobritosan#readme"
+}
