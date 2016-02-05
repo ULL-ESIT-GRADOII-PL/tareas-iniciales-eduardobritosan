@@ -1,3 +1,5 @@
+#Tutorial Tareas Iniciales PL 15-16
+
 ##Git
 
 Es un software de control de versiones desarrollado por Linus Torvalds, desarrollador del kernel Linux.
@@ -9,6 +11,10 @@ En el poco comun caso en el que git no este instalado por defecto en una maquina
     sudo apt-get install git
 
 Tras esto, el software de control de versiones Git estara instalado.
+
+Para comprobar si se ha instalado correctamente, ejecutar:
+
+![](/images/gitVersion.png)
 
 ##Node.js
 
@@ -54,3 +60,12 @@ Se trata de un conversor de lenguajes de marcado, que a su vez son una forma de 
 Para Ubuntu 14.04, se descarga el siguiente paquete .deb y se instala a traves del Centro de Software de Ubuntu:
 
 https://github.com/jgm/pandoc/releases/download/1.16.0.2/pandoc-1.16.0.2-1-amd64.deb
+
+Para comprobar la instalacion, realizar esto:
+
+![](/images/pandoc-install)
+
+
+####Autor
+
+#####Eduardo Ernesto Brito Sanchez - alu0100783315
