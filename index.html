@@ -1,22 +1,96 @@
-<h1 id="tutorial-node.js">Tutorial Node.js</h1>
-<h2 id="introduccion">Introduccion</h2>
-<p>Node.js es un entorno en tiempo de ejecucion cuyo principal objetivo es el desarrollo de aplicaciones en JavaScript para la capa del servidor. Tiene la particularidad que el codigo se ejecuta en el servidor, a diferencia de la mayoria de codigo JavaScript, que se ejecuta en el navegador.</p>
-<h2 id="npm">npm</h2>
-<p>&quot;node package manager&quot; es el sistema gestor de paquetes por defecto de Node.js, se encarga de la instalacion, actualizacion, eliminacion y configuracion de paquetes funcionales en el entorno, a la vez que se encarga de mantener la usabilidad, resolver dependencias, agrupamiento de paquetes, comprobacion de la suma de verificacion (checksum) para evitar diferencias entre la version local de un paquete y la oficial, entre multiples otras funcionalidades.</p>
-<h3 id="package.json">package.json</h3>
-<p>Es un fichero unico que se encuentra normalmente en la raiz del proyecto y contiene varios metadatos relevantes para el mismo. Este fichero provee de informacion a npm para permitir identificarlo y para saber lidiar con las dependencias del proyecto. Tambien contiene metadatos como la descripcion del proyecto, la version, informacion de licencias e incluso informacion de configuracion.</p>
-<p>Aqui un ejemplo de su sintaxis:</p>
-<div class="figure">
-  <img src="/tareas-iniciales-eduardobritosan/images/package-json.png" />
+<!DOCTYPE html>
+<html lang="en">
 
-</div>
-<h2 id="instalacion">Instalacion</h2>
-<p>Para su instalacion, en Ubuntu 14.04, solo se debe ejecutar el comando</p>
-<pre><code>sudo apt-get install node</code></pre>
-<p>Para comprobar la instalacion, ejecutar los siguientes comandos:</p>
-<div class="figure">
-  <img src="/tareas-iniciales-eduardobritosan/images/node+npm.png" />
+<head>
 
-</div>
-<h4 id="autor">Autor</h4>
-<h5 id="eduardo-ernesto-brito-sanchez---alu0100783315">Eduardo Ernesto Brito Sanchez - alu0100783315</h5>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Tutorial Node.js</title>
+
+  <!-- Bootstrap Core CSS -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom CSS -->
+  <style>
+  body {
+    padding-top: 70px;
+    /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+  }
+  </style>
+
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
+  <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+  <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+  <![endif]-->
+
+</head>
+
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <div class="container">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <a class="navbar-brand" href="#">Tutorial Node.js</a>
+      </div>
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav">
+        </ul>
+      </div>
+      <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container -->
+  </nav>
+
+  <!-- Page Content -->
+  <div class="container">
+
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h1 id="tutorial-node.js">Tutorial Node.js</h1>
+        <h2 id="introduccion">Introduccion</h2>
+        <p>Node.js es un entorno en tiempo de ejecucion cuyo principal objetivo es el desarrollo de aplicaciones en JavaScript para la capa del servidor. Tiene la particularidad que el codigo se ejecuta en el servidor, a diferencia de la mayoria de codigo JavaScript, que se ejecuta en el navegador.</p>
+        <h2 id="npm">npm</h2>
+        <p>&quot;node package manager&quot; es el sistema gestor de paquetes por defecto de Node.js, se encarga de la instalacion, actualizacion, eliminacion y configuracion de paquetes funcionales en el entorno, a la vez que se encarga de mantener la usabilidad, resolver dependencias, agrupamiento de paquetes, comprobacion de la suma de verificacion (checksum) para evitar diferencias entre la version local de un paquete y la oficial, entre multiples otras funcionalidades.</p>
+        <h3 id="package.json">package.json</h3>
+        <p>Es un fichero unico que se encuentra normalmente en la raiz del proyecto y contiene varios metadatos relevantes para el mismo. Este fichero provee de informacion a npm para permitir identificarlo y para saber lidiar con las dependencias del proyecto. Tambien contiene metadatos como la descripcion del proyecto, la version, informacion de licencias e incluso informacion de configuracion.</p>
+        <p>Aqui un ejemplo de su sintaxis:</p>
+        <div class="figure">
+          <img src="/tareas-iniciales-eduardobritosan/images/package-json.png" />
+
+        </div>
+        <h2 id="instalacion">Instalacion</h2>
+        <p>Para su instalacion, en Ubuntu 14.04, solo se debe ejecutar el comando</p>
+        <pre><code>sudo apt-get install node</code></pre>
+        <p>Para comprobar la instalacion, ejecutar los siguientes comandos:</p>
+        <div class="figure">
+          <img src="/tareas-iniciales-eduardobritosan/images/node+npm.png" />
+
+        </div>
+        <h4 id="autor">Autor</h4>
+        <h5 id="eduardo-ernesto-brito-sanchez---alu0100783315">Eduardo Ernesto Brito Sanchez - alu0100783315</h5>
+
+      </div>
+    </div>
+    <!-- /.row -->
+
+  </div>
+  <!-- /.container -->
+
+  <!-- jQuery Version 1.11.1 -->
+  <script src="js/jquery.js"></script>
+
+  <!-- Bootstrap Core JavaScript -->
+  <script src="js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
