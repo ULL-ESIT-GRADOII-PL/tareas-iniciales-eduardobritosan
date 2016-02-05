@@ -69,3 +69,5 @@ Para comprobar la instalacion, realizar esto:
 ####Autor
 
 #####Eduardo Ernesto Brito Sanchez - alu0100783315
+
+#####[G+](https://plus.google.com/+EduardoBritoSan)
