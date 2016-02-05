@@ -7,7 +7,15 @@ Tiene la particularidad que el codigo se ejecuta en el servidor, a diferencia de
 
 ##npm
 
-##package.json
+"node package manager" es el sistema gestor de paquetes por defecto de Node.js, se encarga de la instalacion, actualizacion, eliminacion y configuracion de paquetes funcionales en el entorno, a la vez que se encarga de mantener la usabilidad, resolver dependencias, agrupamiento de paquetes, comprobacion de la suma de verificacion (checksum) para evitar diferencias entre la version local de un paquete y la oficial, entre multiples otras funcionalidades.
+
+###package.json
+
+Es un fichero unico que se encuentra normalmente en la raiz del proyecto y contiene varios metadatos relevantes para el mismo. Este fichero provee de informacion a npm para permitir identificarlo y para saber lidiar con las dependencias del proyecto. Tambien contiene metadatos como la descripcion del proyecto, la version, informacion de licencias e incluso informacion de configuracion.
+
+Aqui un ejemplo de su sintaxis:
+
+![](/images/package-json.png)
 
 ##Instalacion
 
