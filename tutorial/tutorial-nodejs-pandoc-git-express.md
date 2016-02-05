@@ -63,7 +63,7 @@ https://github.com/jgm/pandoc/releases/download/1.16.0.2/pandoc-1.16.0.2-1-amd64
 
 Para comprobar la instalacion, realizar esto:
 
-![](/images/pandoc-install)
+![](/images/pandoc-install.png)
 
 
 ####Autor
