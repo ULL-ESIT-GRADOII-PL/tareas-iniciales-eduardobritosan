@@ -22,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/ULL-ESIT-GRADOII-PL/tareas-iniciales-eduardobritosan/issues"
   },
-  "homepage": "https://github.com/ULL-ESIT-GRADOII-PL/tareas-iniciales-eduardobritosan#readme"
+  "homepage": "https://github.com/ULL-ESIT-GRADOII-PL/tareas-iniciales-eduardobritosan#readme",
+  "dependencies": {
+    "express": "^4.13.4"
+  }
 }
