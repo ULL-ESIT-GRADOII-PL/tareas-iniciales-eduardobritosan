@@ -1,6 +1,6 @@
 ## Tarea Inicial
 
-Configuración de las herramientas y tecnologías a utilizar en la asignatura Sistemas y Tecnologías Webs.
+Configuración de las herramientas y tecnologías a utilizar en la asignatura Procesadores de Lenguajes.
 
 * NodeJS
 * Express
@@ -9,6 +9,6 @@ Configuración de las herramientas y tecnologías a utilizar en la asignatura Si
 * Cloud9
 * Markdown
 
-[Página personal de prácticas](http://alu0100536652.github.io/)
+[Página personal de prácticas]()
 
-[Página de la práctica inicial](http://alu0100536652.github.io/Tutorial-STW/)
+[Página de la práctica inicial]()
